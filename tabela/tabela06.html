@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela06</title>
+
+    <style>
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .fundo {
+            background-color: rgba(122, 230, 154, 0.5);
+        }
+        .exatas {
+            background-color: rgba(0, 128, 0, 0.781);
+        }
+        .humanas {
+            background-color:  rgba(0, 128, 0, 0.781);
+        }
+        .mat, .fis, .quim, .bio, .hist, .geo {
+            background-color: rgba(0, 128, 0, 0.411);
+        }
+    </style>
+
+</head>
+<body>
+    
+    <table>
+        <thead>
+            <tr class="fundo">
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Diciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr> 
+            <tr class="fundo">
+                <th>Nota1</th>
+                <th>Nota2</th>
+            </tr>   
+           
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4" class="exatas">Exatas</td>
+                <td class="mat">matematica</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+            </tr>
+            <tr>
+                <td class="fis">fisica</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+            </tr>
+            <tr>
+                <td class="quim">quimica</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+            </tr>
+            <tr>
+                <td class="bio">biologia</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="fundo">Média de exatas</th>
+                <td class="fundo">0,0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" class="humanas">Humanas</th>
+                <td class="hist">Historia</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+            </tr>
+            <tr>
+                <td class="geo">Geografia</td>
+                <td>0,0</td>
+                <td>0,0</td>
+                <td>0,0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4" class="fundo">Média de humanas</th>
+            <td class="fundo">0,0</td>
+        </tfoot>
+    </table>
+
+
+
+
+</body>
+</html>
